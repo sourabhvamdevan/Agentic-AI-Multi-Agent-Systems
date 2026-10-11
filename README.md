@@ -136,9 +136,7 @@ Prompts are already built with spotlighting and a canary token, and every respon
 
 Pattern-based detection is a first line of defence, not a guarantee. Novel paraphrases, other languages and semantic attacks can slip past regex rules, which is why the structural controls (spotlighting, allow-listed tools, policy engine, human approval) exist. Agent data in this repo is **simulated** for demonstration. For production use, add an LLM-based classifier as an extra layer, run red-team evaluations, and keep humans in the loop for consequential actions. Details are in [`docs/SECURITY.md`](docs/SECURITY.md).
 
-## Acknowledgements
 
-The original proof of concept (LangGraph supply-chain risk pipeline) was published under the MIT licence by [aniket-work](https://github.com/aniket-work). This version re-architects it with a security-first design, a new test suite, new diagrams and rewritten documentation.
 
 ## License
 
